@@ -3,27 +3,27 @@ Unity Tutorial (TA Session)
 
 ## Contents (pdf)
 1. Introduction of Unity
-    Unity recently : Game, Movie, VR & AR etc.
-    Unity for serious application : Engineering case, Mechanical CAD
+    + Unity recently... : Game, Movie, VR & AR etc.
+    + Unity for serious application : Engineering case, Mechanical CAD
 2. Unity basic
 3. Tutorial Session
-    Primitive geometry
-    Parametric control
-    Procedural Modeling in Unity
-    Android build
+    + Primitive geometry
+    + Parametric control
+    + Procedural Modeling in Unity
+    + Android build
 
 ## Source code
-1. Unity Project
-    Primitive geometry in Unity
-        Unity built-in primitives : CreatePrimi
-        Procedural Mesh based primitives
-    Parametric control
-        Using control panel
+### Unity Project
++ Primitive geometry in Unity
+    + Unity built-in primitives : CreatePrimi
+    + Procedural Mesh based primitives
++ Parametric control
+    + Using control panel
 
-2. Advanced
-    3D Parametric tree
-    Extrude Feature
-    Sweep Feature
+### Advanced
++ 3D Parametric tree
++ Extrude Feature
++ Sweep Feature
     
 ## Reference
 + 강윤아,한국과학기술원,2014,"스마트 디바이스에 구현된 3D 파라메트릭 CAD 시스템 (A 3D parametric cad system on a smart device)", 박사학위논문
