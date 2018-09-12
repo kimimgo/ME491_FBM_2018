@@ -15,7 +15,7 @@ Unity Tutorial (TA Session)
 ## Source code
 ### Unity Project
 + Primitive geometry in Unity
-    + Unity built-in primitives : CreatePrimi
+    + Unity built-in primitives
     + Procedural Mesh based primitives
 + Parametric control
     + Using control panel

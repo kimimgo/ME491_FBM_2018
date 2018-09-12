@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Cylinder : MonoBehaviour {
 
     // Made by Imgyu Kim : kimimgoo@kaist.ac.kr
     // 2018 ME491 FBS class
 
+
+    #region Global Variables
     MeshFilter filter;
     new MeshRenderer renderer;
 
@@ -21,7 +24,6 @@ public class Cylinder : MonoBehaviour {
             return filter;
         }
     }
-
     public MeshRenderer Renderer
     {
         get
@@ -34,11 +36,20 @@ public class Cylinder : MonoBehaviour {
         }
     }
 
-    [SerializeField, Range(0.1f, 10f)] protected float height = 3f, radius = 1f;
-    [SerializeField, Range(3, 32)] protected int segments = 16;
-    [SerializeField] bool openEnded = true;
+    //Range(0.1f, 10f)
+    public float height = 3f;
+    public float radius = 1f;
+    //Range(3, 32)
+    public int segments = 16;
+    //
+    public bool openEnded = true;
 
     const float PI2 = Mathf.PI * 2f;
+
+    public Slider heightSlider;
+    public Slider radiusSlider;
+    public Slider segmentsSlider;
+    #endregion
 
     // Use this for initialization
     void Start () {
@@ -47,9 +58,17 @@ public class Cylinder : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        //Build a mesh
         Filter.sharedMesh = Build();
+
+        //for UI
+        height = heightSlider.value;
+        radius = radiusSlider.value;
+        segments = (int)segmentsSlider.value;
     }
 
+    #region Cylinder Mesh build & Cap
     Mesh Build()
     {
         var mesh = new Mesh();
@@ -159,4 +178,6 @@ public class Cylinder : MonoBehaviour {
         }
 
     }
+    #endregion
+
 }

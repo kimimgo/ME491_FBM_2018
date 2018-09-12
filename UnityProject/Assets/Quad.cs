@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Quad : MonoBehaviour {
 
@@ -34,18 +35,25 @@ public class Quad : MonoBehaviour {
         }
     }
 
-    float size = 1.0f;
+    public float size = 1.0f;
+    public Slider sizeSlider;
+    
 
 	// Use this for initialization
 	void Start () {
-        Filter.sharedMesh = Build();
+        
 
     }
 
     // Update is called once per frame
     void Update () {
-		
-	}
+
+        //mesh build
+        Filter.sharedMesh = Build();
+
+        //For UI
+        size = sizeSlider.value;
+    }
 
     Mesh Build()
     {
