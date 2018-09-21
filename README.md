@@ -1,5 +1,5 @@
 # ME491_FBM_2018
-Unity Tutorial (TA Session)
+Unity Tutorial (TA Session by Imgyu Kim, Prof. Hyungki Kim.)
 
 ## Contents (pdf)
 1. Introduction of Unity
@@ -34,7 +34,7 @@ Unity Tutorial (TA Session)
 + Sweep Feature
     
 ## Reference
-+Yuna Kang, Hyungki Kim, Hiromasa Suzuki, Soonhung Han "Editing 3D Models on Smart Devices", Computer-Aided Design, 59, pp.229-238, 2015.02.01
++ Yuna Kang, Hyungki Kim, Hiromasa Suzuki, Soonhung Han "Editing 3D Models on Smart Devices", Computer-Aided Design, 59, pp.229-238, 2015.02.01
     + https://www.sciencedirect.com/science/article/pii/S0010448513001395
 + 강윤아,한국과학기술원,2014,"스마트 디바이스에 구현된 3D 파라메트릭 CAD 시스템 (A 3D parametric cad system on a smart device)", 박사학위논문
 + https://www.youtube.com/channel/UCrtNbZIZIfeZVCvVeTkFFNw
