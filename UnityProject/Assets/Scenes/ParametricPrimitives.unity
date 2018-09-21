@@ -304,7 +304,7 @@ GameObject:
   - component: {fileID: 87386793}
   - component: {fileID: 87386792}
   m_Layer: 5
-  m_Name: Title (1)
+  m_Name: heightText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 148784782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e08a0e8b871b60547abc9e5c3a4893dc, type: 3}
+  m_Script: {fileID: 11500000, guid: ee4356bff4887814c90aed5c62379dae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   height: 3
@@ -901,7 +901,7 @@ RectTransform:
   m_AnchorMin: {x: 0.15091509, y: 0}
   m_AnchorMax: {x: 0.15091509, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 60, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &429158361
 MonoBehaviour:
@@ -948,7 +948,7 @@ GameObject:
   - component: {fileID: 581461634}
   - component: {fileID: 581461633}
   m_Layer: 5
-  m_Name: Title (2)
+  m_Name: radiusText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1045,7 +1045,7 @@ RectTransform:
   m_AnchorMin: {x: 0.13793103, y: 0}
   m_AnchorMax: {x: 0.13793103, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 60, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &622156497
 MonoBehaviour:
@@ -1439,7 +1439,7 @@ RectTransform:
   m_AnchorMin: {x: 0.100999996, y: 0}
   m_AnchorMax: {x: 0.100999996, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 60, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1168635090
 MonoBehaviour:
@@ -1486,7 +1486,7 @@ GameObject:
   - component: {fileID: 1207924149}
   - component: {fileID: 1207924148}
   m_Layer: 5
-  m_Name: Title (4)
+  m_Name: SizeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2029,7 +2029,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1599438497}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50c59500651df1c469d33a7d40c17e27, type: 3}
+  m_Script: {fileID: 11500000, guid: e2f1e5766886c884ca8020946b692484, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   size: 1
@@ -2300,7 +2300,7 @@ RectTransform:
   m_AnchorMin: {x: 0.14747474, y: 0}
   m_AnchorMax: {x: 0.14747474, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 60, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1881558062
 MonoBehaviour:
@@ -2347,7 +2347,7 @@ GameObject:
   - component: {fileID: 1931904451}
   - component: {fileID: 1931904450}
   m_Layer: 5
-  m_Name: Title (3)
+  m_Name: segmentsText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
